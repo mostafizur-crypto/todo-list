@@ -83,6 +83,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Expanded(
             child: ListView.builder(
               itemCount: todos.length,
+              
               itemBuilder: (_, index) {
                 return TodoItem(
                   todo: todos[index],

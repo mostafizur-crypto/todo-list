@@ -28,6 +28,7 @@ class TodoItem extends StatelessWidget {
       child: ListTile(
         title: Text(
           todo.title,
+          
           style: TextStyle(
             decoration: todo.isDone ? TextDecoration.lineThrough : null,
           ),
